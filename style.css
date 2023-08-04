@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Handjet', cursive;
+    font-family: 'Kablammo', cursive;
+    color: palevioletred;
+}
+body {
+    background-color: peachpuff;
+}
+.header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 25px;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: palevioletred;
+    text-decoration: none;
+    margin-left: 22px;
+    transition: .2s;  
+}
+
+.navbar a:hover {
+    color: orange;
+}
+.Viewall >a {
+    text-decoration: none;
+}
+
+.home {
+ 
+    
+    padding: 0 ;
+    margin-left: 15%;
+}
+
+.home-content {
+    max-width: 600px;
+   
+}
+
+.home-content h1 {
+  font-size: 56px;
+}
+
+.home-content h3 {
+    font-size: 32px;
+}
+
+.home-content p {
+    font-size: 16px;
+}
+
+.home-content .btn-box {
+    width: 200px;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 107px;
+    margin-right: 10%;
+}
+
+
+
+.post {
+    margin-left: 14%;
+    margin-right: 9%;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.Recent {
+    text-decoration: none;
+}
+
+.Colum {
+   
+    background-color: turquoise;
+    padding: 30px;
+}
+.flex {
+    display: flex;
+}
+
+.one {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 450px;
+    /* height: 200px; */
+    padding: 10px;
+    margin: 0;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.cricle {
+    margin-right: 20px;
+}
+.tab {
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.message {
+    padding: 20px;
+}
+.cricle {
+    color: white;
+    background-color: turquoise;
+    border-radius: 20%;
+    width: 35px;
+    height: 20px;
+}
+.inline  > div {
+    margin-right: 2000px;
+}
+
+.two img {
+    margin: 20px;
+width: 200px;
+margin-left: 15%;
+    margin-right: 10%;
+    max-width: 600px;
+
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    width: 1200px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 20px; */
+}
+
+hr {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.icon  {
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.icon > a {
+    margin-right: 20px;
+}
+.text-align {
+    text-align: center;
+}
+
+
+
+
